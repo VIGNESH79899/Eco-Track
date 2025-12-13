@@ -238,3 +238,27 @@
 .counter-number {
   font-variant-numeric: tabular-nums;
 }
+@keyframes tree-sway {
+  0%, 100% {
+    transform: translateX(-96px) rotate(-0.6deg);
+  }
+  50% {
+    transform: translateX(-96px) rotate(0.6deg);
+  }
+}
+
+.animate-tree-sway {
+  animation: tree-sway 9s ease-in-out infinite;
+}
+@keyframes logo-float {
+  0%, 100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-10px) rotate(3deg);
+  }
+}
+
+.animate-logo-float {
+  animation: logo-float 8s ease-in-out infinite;
+}
